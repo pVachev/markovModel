@@ -20,7 +20,8 @@ def main():
 
     # print(df)
 
-    print(df)
+    print(df.index.dtype)
+
 
     # model = hmm.GaussianHMM(n_components=2,
     #                         )
